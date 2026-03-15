@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container mt-5">
+
+<h2 class="text-center fw-bold mb-4">Contact Us</h2>
+<p class="text-center text-muted">Have questions? Get in touch with us.</p>
+
+<div class="row mt-5">
+
+<!-- Contact Info -->
+<div class="col-md-5">
+
+<div class="contact-info">
+
+<h4>College Information</h4>
+
+<p>📍 Chandigarh, Punjab, India</p>
+<p>📞 +91 98765 43210</p>
+<p>✉ info@smartcollege.edu</p>
+
+<hr>
+
+<h5>Office Hours</h5>
+
+<p>Monday - Friday : 9:00 AM – 5:00 PM</p>
+<p>Saturday : 10:00 AM – 2:00 PM</p>
+
+</div>
+
+</div>
+
+
+<!-- Contact Form -->
+<div class="col-md-7">
+
+<form class="contact-form">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+<label>Name</label>
+<input type="text" class="form-control" placeholder="Your Name" required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Email</label>
+<input type="email" class="form-control" placeholder="Your Email" required>
+</div>
+
+</div>
+
+<div class="mb-3">
+<label>Subject</label>
+<input type="text" class="form-control" placeholder="Subject">
+</div>
+
+<div class="mb-3">
+<label>Message</label>
+<textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary w-100">Send Message</button>
+
+</form>
+
+</div>
+
+</div>
+
+
+<!-- Google Map -->
+
+<div class="map-section mt-5">
+
+<iframe
+width="100%"
+height="350"
+style="border:0"
+loading="lazy"
+allowfullscreen
+src="https://maps.google.com/maps?q=chandigarh&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+{% endblock %}

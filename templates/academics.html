@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container mt-5">
+
+    <h2 class="fw-bold text-center mb-4">Academics</h2>
+    <p class="text-center text-muted">
+        Explore our academic programs, examination system and curriculum details.
+    </p>
+
+    <div class="row mt-4">
+
+        <!-- Undergraduate Programs -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">🎓 Undergraduate</h5>
+                    <p class="card-text">B.Tech, BBA, BCA and more programs designed for future professionals.</p>
+                    <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#ug">
+                        View Programs
+                    </button>
+
+                    <div id="ug" class="collapse mt-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">B.Tech</li>
+                            <li class="list-group-item">BBA</li>
+                            <li class="list-group-item">BCA</li>
+                            <li class="list-group-item">B.Sc</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Postgraduate Programs -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">🎓 Postgraduate</h5>
+                    <p class="card-text">Advanced programs to specialize in your chosen field.</p>
+
+                    <button class="btn btn-success btn-sm" data-bs-toggle="collapse" data-bs-target="#pg">
+                        View Programs
+                    </button>
+
+                    <div id="pg" class="collapse mt-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">M.Tech</li>
+                            <li class="list-group-item">MBA</li>
+                            <li class="list-group-item">MCA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Examination System -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📝 Examination</h5>
+                    <p class="card-text">Transparent and structured examination process.</p>
+
+                    <button class="btn btn-warning btn-sm" data-bs-toggle="collapse" data-bs-target="#exam">
+                        View Details
+                    </button>
+
+                    <div id="exam" class="collapse mt-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">Semester Exams</li>
+                            <li class="list-group-item">Internal Assessment</li>
+                            <li class="list-group-item">Result Declaration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Syllabus -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📚 Syllabus</h5>
+                    <p class="card-text">Updated curriculum aligned with industry standards.</p>
+
+                    <button class="btn btn-info btn-sm" data-bs-toggle="collapse" data-bs-target="#syllabus">
+                        View Curriculum
+                    </button>
+
+                    <div id="syllabus" class="collapse mt-3">
+                        <ul class="list-group">
+                            <li class="list-group-item">AI & ML</li>
+                            <li class="list-group-item">Data Science</li>
+                            <li class="list-group-item">Cyber Security</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

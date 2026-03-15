@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container mt-5">
+
+<h2 class="text-center fw-bold mb-4">Admissions</h2>
+<p class="text-center text-muted">Apply now and start your journey with Smart College.</p>
+
+
+<!-- Admission Process -->
+<div class="row mt-5">
+
+<div class="col-md-6">
+<h4 class="fw-bold">Admission Process</h4>
+
+<div class="process-step">1️⃣ Fill Online Application Form</div>
+<div class="process-step">2️⃣ Upload Required Documents</div>
+<div class="process-step">3️⃣ Entrance Exam / Merit Selection</div>
+<div class="process-step">4️⃣ Admission Confirmation</div>
+
+</div>
+
+
+<!-- Eligibility -->
+<div class="col-md-6">
+
+<h4 class="fw-bold">Eligibility</h4>
+
+<div class="card mb-3 shadow-sm">
+<div class="card-body">
+<h6>B.Tech</h6>
+<p>Minimum <b>60%</b> in 12th with PCM.</p>
+</div>
+</div>
+
+<div class="card shadow-sm">
+<div class="card-body">
+<h6>MBA</h6>
+<p>Graduation with minimum <b>50%</b>.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+<hr class="my-5">
+
+
+<!-- Admission Form -->
+<h3 class="text-center mb-4">Apply for Admission</h3>
+
+<form class="admission-form">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+<label>Full Name</label>
+<input type="text" class="form-control" placeholder="Enter your name" required>
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Email</label>
+<input type="email" class="form-control" placeholder="Enter email" required>
+</div>
+
+</div>
+
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+<label>Phone</label>
+<input type="text" class="form-control" placeholder="Phone number">
+</div>
+
+<div class="col-md-6 mb-3">
+<label>Select Course</label>
+
+<select class="form-control">
+<option>B.Tech</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>MBA</option>
+<option>MCA</option>
+</select>
+
+</div>
+
+</div>
+
+
+<div class="mb-3">
+<label>Message</label>
+<textarea class="form-control" rows="3" placeholder="Any queries..."></textarea>
+</div>
+
+
+<button type="submit" class="btn btn-primary w-100">Submit Application</button>
+
+</form>
+
+
+</div>
+
+{% endblock %}

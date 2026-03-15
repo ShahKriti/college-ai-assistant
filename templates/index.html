@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+<section class="hero">
+
+    <div class="hero-overlay">
+
+        <h1>Welcome to Smart College</h1>
+
+        <p>Empowering Students Through Innovation, Technology and Research</p>
+
+        <a href="/admissions" class="hero-btn">Apply Now</a>
+
+    </div>
+
+</section>
+
+</section>
+
+
+<section class="features">
+
+<h2>Why Choose Us</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>Top Infrastructure</h3>
+<p>World class laboratories and smart classrooms.</p>
+</div>
+
+<div class="card">
+<h3>Industry Placement</h3>
+<p>Top companies recruit our students every year.</p>
+</div>
+
+<div class="card">
+<h3>Research Programs</h3>
+<p>Strong focus on innovation and development.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="chat-section">
+
+<h2>College AI Assistant</h2>
+
+<div class="chat-container">
+
+<div id="chatbox"></div>
+
+<div class="chat-input">
+
+<input id="userInput" placeholder="Ask something about college...">
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+</section>
+
+{% endblock %}

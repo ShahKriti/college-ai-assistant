@@ -1,0 +1,29 @@
+{
+  "admissions": [
+    "how can i apply",
+    "how do i join the college",
+    "admission process",
+    "how to enroll"
+  ],
+
+  "courses": [
+    "what courses are offered",
+    "what programs are available",
+    "what can i study",
+    "degree programs"
+  ],
+
+  "departments": [
+    "what departments exist",
+    "tell me about branches",
+    "cse department",
+    "engineering departments"
+  ],
+
+  "contact": [
+    "how can i contact college",
+    "college phone number",
+    "email address",
+    "location of college"
+  ]
+}
